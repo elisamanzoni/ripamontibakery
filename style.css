@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:300');
+
 #sopra{
   position:fixed;
   height: 5.5em;
@@ -13,7 +15,7 @@
   transform: translate(50%, -50%);
   top: 3.5em;
   font-size: 10pt;
-  font-family: 'Montserrat';
+  font-family: 'Source Code Pro', monospace;';
   font-weight: 600;
   color:black;
   height: 50px;
@@ -25,7 +27,6 @@
 .barra:hover{
   color:black;
   transition: 0.2s;
-  border: 2px solid #C01823;
 }
 
 #logo_piccolo{
