@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 #sopra{
-  position:absolute;
+  position:fixed;
   height: 5.5em;
   width: 100%;
   background-color: white;
