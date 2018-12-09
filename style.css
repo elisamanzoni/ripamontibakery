@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:300');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,500,600,700,900');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
 
 #sopra{
   position:fixed;
@@ -7,16 +8,16 @@
   background-color: white;
   top:0%;
   left:0%;
-  box-shadow: 0px 0px 30px lightgrey;
+  box-shadow: 0px 0px 10px lightgrey;
 }
 
 .barra{
   position: fixed;
   transform: translate(50%, -50%);
-  top: 3.5em;
-  font-size: 10pt;
+  top: 2.5em;
+  font-size: 12pt;
   font-family: 'Source Code Pro', monospace;';
-  font-weight: 600;
+  font-weight: 800;
   color:black;
   height: 50px;
   width: 100px;
@@ -25,49 +26,163 @@
 }
 
 .barra:hover{
-  color:black;
+  color:gray;
   transition: 0.2s;
 }
 
 #logo_piccolo{
-  position:fixed;
-  width: 13em;
-  top: 3em;
-  left:3em;
-  transform: translate(0, -50%);
+  position:absolute;
+  width: 20em;
+  top: 5em;
+  left:50%;
+  transform: translate(-50%, -50%);
+  animation:opacity 3s;
 }
 
-a{
-  color:inherit;
-  text-decoration: none;
-}
+a{text-decoration: inherit!important;
+color:inherit!important;}
 
-#HOME{
+#barra_1{
   right:50%;
 }
 
-#la_banda{
-  right:43%;
+#barra_2{
+  right:42%;
 }
 
-#viaggi{
+#barra_6{
   right:15%;
 }
 
-#gallery{
+#barra_5{
   right:22%;
 }
 
-#canzoni{
+#barra_4{
   right:29%;
 }
 
-#servizi{
+#barra_3{
   right:36%;
 }
 
-#contatti{
+#barra_7{
   right:8%;
 }
 
 /* Fine barra dei menù */
+
+/* foto centrale */
+
+#titolo{
+  position: absolute;
+  top:9em;
+  height: 25em;
+  left:50%;
+  transform: translate(-50%,0);
+  width: 100%;
+  background-image: url(images/cover2.jpg);
+  background-position: center -300px;
+  background-size: 95%;
+    animation:opacity 3s;
+    /*border: 1pt solid black;*/
+}
+
+
+
+@keyframes opacity{
+  from{opacity:0;}
+  to{opacity: 1;}
+}
+
+/*Fine foto centrale */
+
+/*menu */
+#menu{
+  position: fixed;
+  margin-left: -40px;
+  margin-top: -30px;
+}
+
+
+.btn-lg{  background-color: inherit!important;}
+
+.dropdown-toggle{font-size: 20pt !important;}
+.dropdown-toggle:hover{  text-decoration: underline!important;}
+
+.dropdown-menu{font-size: 18pt !important;
+  border-color: white !important;
+  background-color: white!important;
+}
+
+#linea{
+  margin-top: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 170px;
+  height: 1.5px;
+  background-color: black;
+}
+/*grigli */
+
+#griglia{
+  position: absolute;
+  top:650px;
+  width: 100%;
+  left: 0%;
+  height: 500px;
+  background-color: #f1f2f2;
+}
+
+#griglia2{
+  position: absolute;
+  top:1150px;
+  width: 100%;
+  left: 0%;
+  height: 500px;
+  background-color: black;
+}
+
+
+.container{
+  margin-top: 80px;
+}
+
+/*FONT*/
+.source{
+      font-family: 'Source Code Pro', monospace;';
+      line-height: 30px;}
+
+  .roboto{
+        font-family: 'Roboto', sans-serif;';
+      line-height: 30px;}
+
+.titolo_articolo{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 25pt;
+  color:black;}
+
+  .sottotitolo_articolo{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 15pt;
+    color:black;}
+
+    .testo_articolo{
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-weight: 300;
+      font-size: 12pt;
+      color:black;}
+
+  .white{
+    color:white;
+  }
+
+  .menu_font{
+    margin-top: 10px;
+    margin-bottom: : 15px;
+  }
