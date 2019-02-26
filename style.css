@@ -49,7 +49,6 @@
   background-color: white;
   height: 35px;
   width: 1px;
-  border-radius: 100%;
 }
 
 
@@ -185,7 +184,7 @@ color:inherit!important;}
 }
 
 #griglia4{
-  top:2120px;
+  top:2150px;
   height: 550px;
 }
 
@@ -339,7 +338,6 @@ left:50%;}
   top:105px;
   height: 3px;
   width: 430px;
-  border-radius: 100%;
 }
 
 .pulsante{
@@ -364,7 +362,7 @@ color:white;
 #pulsante_2{top: 280px;}
 
 #pulsante_3{
-  top: 280px;
+  top: 260px;
 background-color: black;}
 
 #pulsante_3:hover{
