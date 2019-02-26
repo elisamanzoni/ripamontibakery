@@ -161,7 +161,7 @@ color:inherit!important;}
   position: absolute;
   width: 100%;
   left: 0%;
-  height: 550px;
+  height: 500px;
   background-position: center, center;
 }
 
@@ -172,20 +172,20 @@ color:inherit!important;}
 }
 
 #griglia2{
-  top:1290px;
+  top:1240px;
   background-image: url(images/pane2.jpg);
   background-color: #f1f2f2;
 }
 
 #griglia3{
-  top:1840px;
+  top:1740px;
   height: 1200px;
   background-image: url(images/pizze3.png);
   background-color: white;
 }
 
 #griglia4{
-  top:2270px;
+  top:2120px;
   height: 550px;
 }
 
@@ -272,7 +272,7 @@ left:50%;}
 
 /*footer*/
 #footer{
-  top:3020px;
+  top:2870px;
   height: 230px;
   background-color: #333333;
 }
@@ -345,7 +345,7 @@ left:50%;}
 .pulsante{
   position: absolute;
   background-color: white;
-  top: 330px;
+  top: 280px;
   height: 40px;
   width: 300px;
   border-radius: 10px;
