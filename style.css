@@ -9,6 +9,7 @@
 --------------------------------------------------
 ------INIZIO SCHERMO PICCOLO------------------------------
 ---------------------------------------*/
+@media screen and (max-width: 1024px){
 
 #sopra{
 position:fixed;
@@ -435,7 +436,7 @@ line-height: 26px;*/}
   margin-top: 10px;
   margin-bottom: : 15px;
 }
-
+}
 /*------------------------------
 --------------------------------------------------
 ------INIZIO SCHERMO GRANDE------------------------------
@@ -452,7 +453,8 @@ line-height: 26px;*/}
     animation:opacity 3s;
 }
 
-#menu{opacity: 0}
+#menu{
+  opacity: 0}
 
 #logo_barra{
   position:fixed;
@@ -464,6 +466,7 @@ line-height: 26px;*/}
 }
 
 .barra{
+  opacity: 1;
   position: fixed;
   transform: translate(50%, -50%);
   top: 2.5em;
@@ -484,6 +487,7 @@ line-height: 26px;*/}
 }
 
 .lineetta{
+  opacity: 1;
   position: fixed;
   transform: translate(0, -50%);
   top: 3.2em;
@@ -494,6 +498,7 @@ line-height: 26px;*/}
 
 
 #social_barra{
+  opacity: 1;
   position:fixed;
   width: 2em;
   top:3.2em;
@@ -576,6 +581,7 @@ color:inherit!important;}
 }
 
 #logo_piccolo{
+  opacity: 1;
   position:absolute;
   width: 20em;
   top: 12.5em;
