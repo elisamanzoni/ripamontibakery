@@ -28,6 +28,14 @@ top:50px;
 animation:opacity 3s;
 }
 
+#menu{
+  position:fixed;
+  width: 50px;
+  right:10%;
+  top:50px;
+  animation:opacity 3s;
+}
+
 .barra{
 opacity: 0;
 /*position: fixed;
@@ -134,7 +142,7 @@ right: 14.2%;
 position: absolute;
 top:130px;
 width: 100%;
-height: 1650px;
+height: 1550px;
 left:0%;
 background-image: url(images/cover_phone.png);
 background-position: center center;
@@ -175,34 +183,34 @@ background-position: center, center;
 }
 
 #griglia1{
-top:1780px;
+top:1680px;
 background-image: url(images/impasto_phone.png);
 background-color: #f1f2f2;
 }
 
 #griglia2{
-top:2580px;
-background-image: url(images/pane2.jpg);
+top:2480px;
+background-image: url(images/pane_phone.png);
 background-color: #f1f2f2;
 }
 
 #griglia3{
-top:3380px;
-height: 1200px;
-background-image: url(images/pizze3.png);
+top:3280px;
+height: 1800px;
+background-image: url(images/pizze_phone.png);
 background-color: white;
 }
 
 #griglia4{
-top:4150px;
+top:3850px;
 height: 550px;
 }
 
 .box_griglia4{
 position: absolute;
-top:150px;
+top:350px;
 height: 350px;
-width: 600px;
+width: 900px;
 transform: translate(-50%,0);
 left: 50%;
 }
@@ -210,8 +218,8 @@ left: 50%;
 .piccolo_box_griglia4{
 position: absolute;
 background-color: #e6e6e6;
-height: 350px;
-width: 260px;
+height: 675px;
+width: 430px;
 box-shadow: 4px 7px 7px #333333;
 }
 
@@ -223,25 +231,26 @@ right: 0%;}
 position: absolute;
 transform: translate(-50%,0);
 left: 50%;
-top:50px;
-height: 30px;
+top:80px;
+height: 55px;
 }
 
 #titolo_box{
 position: absolute;
 top:80px;
 transform: translate(-50%,0);
-left: 50%;}
+left: 50%;
+font-size: 45px;}
 
 .testo_box{
 position: absolute;
 bottom:0px;
-width: 165px;
+width: 300px;
 right: 0%;
-height: 200px;
+height: 400px;
 font-weight: 100;
-line-height: 22px;
-font-size: 14pt;
+line-height: 45px;
+font-size: 30pt;
 text-align: left;
 }
 
@@ -250,14 +259,14 @@ position: absolute;
 bottom:0px;
 width: 20px;
 left: 50px;
-height: 200px;
+height: 400px;
 }
 
-.line_height_25{line-height: 50px;}
+.line_height_25{line-height: 100px;}
 
 #loghetto_piccolo_box1{
 position: absolute;
-width: 20px;
+width: 40px;
 top:5px;
 margin-bottom: 22px;
 transform: translate(-50%, 0);
@@ -265,44 +274,45 @@ left:50%;}
 
 #loghetto_piccolo_box2{
   position: absolute;
-  width: 23px;
-  top:55px;
+  width: 43px;
+  top:120px;
   margin-bottom: 22px;
   transform: translate(-50%, 0);
   left:50%;}
 
   #loghetto_piccolo_box3{
     position: absolute;
-    width: 25px;
-    top:100px;
+    width: 45px;
+    top:220px;
     margin-bottom: 22px;
     transform: translate(-50%, 0);
     left:50%;}
 
 /*footer*/
 #footer{
-top:4870px;
-height: 230px;
+top:5070px;
+height: 300px;
 background-color: #333333;
 }
 
 #testo_footer{
 position: absolute;
-TOP:40PX;
+TOP:10PX;
+margin-top: -50px;
 }
 
 #loghetti_footer{
 position: absolute;
 transform: translate(-50%,0);
 left:50%;
-top: 65px;
+top: 190px;
 width: 150px;
 height: 63px;
 }
 
 .social_footer{
 position: absolute;
-width: 50px;
+width: 60px;
 transform: translate(-50%,0);
 }
 
@@ -331,10 +341,10 @@ height: 500px;
 
 #testo_3{top:100px;}
 
-.destra{
+/*.destra{
 text-align: right;
 right: 0%;
-}
+}*/
 
 .centro{
 text-align: center;
@@ -345,22 +355,28 @@ left: 50%;
 .lineetta_testo{
 position: absolute;
 background-color: white;
-top:105px;
-height: 3px;
+top:280px;
+height: 5px;
 width: 430px;
+text-align: center;
+transform: translate(-50%, 0);
+left: 50%;
 }
 
 .pulsante{
 position: absolute;
 background-color: white;
-top: 280px;
-height: 40px;
-width: 300px;
+top: 480px;
+height: 70px;
+width: 500px;
 border-radius: 10px;
 text-align: center;
-line-height: 40px;
+line-height: 70px;
 font-weight: 600;
-font-size: 13pt;
+font-size: 22pt;
+text-align: center;
+transform: translate(-50%, 0);
+left: 50%;
 }
 
 .pulsante:hover{
@@ -369,11 +385,10 @@ color:white;
 transition: 0.2s;
 }
 
-#pulsante_2{top: 280px;}
 
 #pulsante_3{
-top: 260px;
-background-color: black;}
+  top:400px;
+background-color: #333333;}
 
 #pulsante_3:hover{
 background-color: gray;
@@ -397,18 +412,20 @@ transition: 0.2s;
     font-family: 'Anonymous Pro', monospace;}
 
 .titolo_articolo{
-margin-top: 10px;
+  text-align: center;
+margin-top: 90px;
 margin-bottom: 5px;
 font-weight: 500;
-font-size: 20pt;}
+font-size: 40pt;}
 
 
   .testo_articolo{
-    margin-top: 40px;
+    opacity: 0;
+    /*margin-top: 40px;
     margin-bottom: 10px;
     font-weight: 500;
     font-size: 16pt;
-line-height: 26px;}
+line-height: 26px;*/}
 
 .white{
   color:white;
@@ -434,6 +451,8 @@ line-height: 26px;}
   left:0%;
     animation:opacity 3s;
 }
+
+#menu{opacity: 0}
 
 #logo_barra{
   position:fixed;
@@ -785,7 +804,7 @@ color:white;
 
 #pulsante_3{
   top: 260px;
-background-color: black;}
+background-color: #333333;}
 
 #pulsante_3:hover{
 background-color: gray;
