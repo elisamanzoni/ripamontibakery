@@ -110,11 +110,11 @@ color:inherit!important;}
 }
 
 .social_barra_2{
-  right: 16%;
+  right: 16.8%;
 }
 
 .social_barra_3{
-  right: 13%;
+  right: 14.2%;
 }
 
 
@@ -125,21 +125,20 @@ color:inherit!important;}
 #titolo{
   position: absolute;
   top:15em;
-  height: 25em;
-  left:50%;
-  transform: translate(-50%,0);
   width: 100%;
+  height: 25em;
+  left:0%;
   background-image: url(images/cover2.jpg);
-  background-position: center -300px;
-  background-size: 95%;
+  background-position: center center;
     animation:opacity 3s;
+
     /*border: 1pt solid black;*/
 }
 
 #logo_piccolo{
   position:absolute;
   width: 20em;
-  top: -2.5em;
+  top: 12.5em;
   left:50%;
   transform: translate(-50%, -50%);
   animation:opacity 3s;
@@ -158,26 +157,155 @@ color:inherit!important;}
 
 /*grigli */
 
-#griglia{
+.griglia{
   position: absolute;
-  top:740px;
   width: 100%;
   left: 0%;
   height: 550px;
-  background-image: url(images/impasto.png);
   background-position: center, center;
+}
+
+#griglia1{
+  top:740px;
+  background-image: url(images/impasto.png);
   background-color: #f1f2f2;
 }
 
-
 #griglia2{
-  position: absolute;
-  top:1350px;
-  width: 100%;
-  left: 0%;
-  height: 600px;
-  background-color: black;
+  top:1290px;
+  background-image: url(images/pane2.jpg);
+  background-color: #f1f2f2;
 }
+
+#griglia3{
+  top:1840px;
+  height: 1200px;
+  background-image: url(images/pizze3.png);
+  background-color: white;
+}
+
+#griglia4{
+  top:2270px;
+  height: 550px;
+}
+
+.box_griglia4{
+  position: absolute;
+  top:150px;
+  height: 350px;
+  width: 600px;
+  transform: translate(-50%,0);
+  left: 50%;
+}
+
+.piccolo_box_griglia4{
+  position: absolute;
+  background-color: #e6e6e6;
+  height: 350px;
+  width: 260px;
+  box-shadow: 4px 7px 7px #333333;
+}
+
+#piccolo_box2{
+  position: absolute;
+  right: 0%;}
+
+#logo_piccolo_box{
+  position: absolute;
+  transform: translate(-50%,0);
+  left: 50%;
+  top:50px;
+  height: 30px;
+}
+
+#titolo_box{
+  position: absolute;
+  top:80px;
+  transform: translate(-50%,0);
+  left: 50%;}
+
+.testo_box{
+  position: absolute;
+  bottom:0px;
+  width: 165px;
+  right: 0%;
+  height: 200px;
+  font-weight: 100;
+  line-height: 22px;
+  font-size: 14pt;
+  text-align: left;
+}
+
+.loghetti_box{
+  position: absolute;
+  bottom:0px;
+  width: 20px;
+  left: 50px;
+  height: 200px;
+}
+
+.line_height_25{line-height: 50px;}
+
+#loghetto_piccolo_box1{
+  position: absolute;
+  width: 20px;
+  top:5px;
+  margin-bottom: 22px;
+transform: translate(-50%, 0);
+left:50%;}
+
+  #loghetto_piccolo_box2{
+    position: absolute;
+    width: 23px;
+    top:55px;
+    margin-bottom: 22px;
+    transform: translate(-50%, 0);
+    left:50%;}
+
+    #loghetto_piccolo_box3{
+      position: absolute;
+      width: 25px;
+      top:100px;
+      margin-bottom: 22px;
+      transform: translate(-50%, 0);
+      left:50%;}
+
+/*footer*/
+#footer{
+  top:3020px;
+  height: 230px;
+  background-color: #333333;
+}
+
+#testo_footer{
+  position: absolute;
+  TOP:40PX;
+}
+
+#loghetti_footer{
+  position: absolute;
+  transform: translate(-50%,0);
+  left:50%;
+  top: 65px;
+  width: 150px;
+  height: 63px;
+}
+
+.social_footer{
+  position: absolute;
+  width: 50px;
+  transform: translate(-50%,0);
+}
+
+.social_footer:hover{
+  opacity: 0.5;
+  transition: 0.2s;
+}
+
+#social_footer_1{left:0%}
+#social_footer_2{left:50%}
+#social_footer_3{left:100%}
+
 
 
 
@@ -186,10 +314,23 @@ color:inherit!important;}
 .testo{
   position: absolute;
   transform: translate(-50%, 0);
-  top:820px;
+  top:70px;
   width: 800px;
   left: 50%;
   height: 500px;
+}
+
+#testo_3{top:100px;}
+
+.destra{
+  text-align: right;
+  right: 0%;
+}
+
+.centro{
+  text-align: center;
+  transform: translate(-50%, 0);
+  left: 50%;
 }
 
 .lineetta_testo{
@@ -214,11 +355,31 @@ color:inherit!important;}
   font-size: 13pt;
 }
 
+.pulsante:hover{
+background-color: gray;
+color:white;
+  transition: 0.2s;
+}
+
+#pulsante_2{top: 280px;}
+
+#pulsante_3{
+  top: 280px;
+background-color: black;}
+
+#pulsante_3:hover{
+background-color: gray;
+color:white;
+  transition: 0.2s;
+}
+
 
 /*FONT*/
 .white { Color:white;}
 
 .black { Color:black;}
+
+.sfondo_black { background-color:black;}
 
 .source{
       font-family: 'Source Sans Pro', sans-serif;';
@@ -237,9 +398,8 @@ color:inherit!important;}
     .testo_articolo{
       margin-top: 40px;
       margin-bottom: 10px;
-      font-weight: 300;
+      font-weight: 500;
       font-size: 16pt;
-    width: 380px;
   line-height: 26px;}
 
   .white{
