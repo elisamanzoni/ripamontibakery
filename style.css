@@ -21,7 +21,6 @@
   background-color: #333;
   top:0%;
   right:0%;
-    animation:opacity 3s;
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
@@ -55,8 +54,8 @@
 }
 
 .icon_menu{
-  width: 50px;
-  right:0%;
+  width: 70px;
+  right:0vw;
 }
 
 /* Add a grey background color on mouse-over */
