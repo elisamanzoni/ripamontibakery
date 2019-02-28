@@ -72,7 +72,7 @@
 }
 
 .barra{
-font-size: 30pt!important;
+font-size: 40pt!important;
 font-family: 'Source Sans Pro', sans-serif;';
 font-weight: 800;
 color:white;
@@ -86,7 +86,7 @@ background-color: white;
 height: 2px;
 width: 400px;
 margin-left: 100px;
-margin-top: 30px;
+margin-top: 50px;
 }
 
 #lineetta_1{
@@ -236,41 +236,55 @@ to{opacity: 1;}
 
 /*grigli */
 
+.griglia_grigio{
+position: absolute;
+width: 100%;
+transform: translate(-50%,0);
+left: 50%;
+height: 3559px;
+background-position: center,center;
+top:1680px;
+background-image: url(images/grigio_phone.png);
+background-color: white;
+}
+
 .griglia{
 position: absolute;
 width: 100%;
-left: 0%;
-height: 800px;
+transform: translate(-50%,0);
+left: 50%;
+height: 700px;
 background-position: center, center;
 }
 
 #griglia1{
-top:1680px;
+top:1730px;
+width: 90%;
 background-image: url(images/impasto_phone.png);
 background-color: #f1f2f2;
 }
 
 #griglia2{
 top:2480px;
+width: 90%;
 background-image: url(images/pane_phone.png);
 background-color: #f1f2f2;
 }
 
 #griglia3{
-top:3280px;
-height: 1800px;
+top:3200px;
+height: 880px;
 background-image: url(images/pizze_phone.png);
-background-color: white;
 }
 
 #griglia4{
-top:3850px;
+top:3800px;
 height: 550px;
 }
 
 .box_griglia4{
 position: absolute;
-top:350px;
+top:280px;
 height: 350px;
 width: 900px;
 transform: translate(-50%,0);
@@ -293,13 +307,13 @@ right: 0%;}
 position: absolute;
 transform: translate(-50%,0);
 left: 50%;
-top:80px;
+top:90px;
 height: 55px;
 }
 
 #titolo_box{
 position: absolute;
-top:80px;
+top:120px;
 transform: translate(-50%,0);
 left: 50%;
 font-size: 45px;}
@@ -309,7 +323,7 @@ position: absolute;
 bottom:0px;
 width: 300px;
 right: 0%;
-height: 400px;
+height: 420px;
 font-weight: 100;
 line-height: 45px;
 font-size: 30pt;
@@ -321,7 +335,7 @@ position: absolute;
 bottom:0px;
 width: 20px;
 left: 50px;
-height: 400px;
+height: 420px;
 }
 
 .line_height_25{line-height: 100px;}
@@ -352,14 +366,14 @@ left:50%;}
 
 /*footer*/
 #footer{
-top:5070px;
+top:4970px;
 height: 300px;
 background-color: #333333;
 }
 
 #testo_footer{
 position: absolute;
-TOP:10PX;
+TOP:70PX;
 margin-top: -50px;
 }
 
@@ -367,7 +381,7 @@ margin-top: -50px;
 position: absolute;
 transform: translate(-50%,0);
 left:50%;
-top: 190px;
+top: 130px;
 width: 150px;
 height: 63px;
 }
@@ -417,7 +431,7 @@ left: 50%;
 .lineetta_testo{
 position: absolute;
 background-color: white;
-top:280px;
+top:220px;
 height: 5px;
 width: 430px;
 text-align: center;
@@ -428,7 +442,7 @@ left: 50%;
 .pulsante{
 position: absolute;
 background-color: white;
-top: 480px;
+top: 450px;
 height: 70px;
 width: 500px;
 border-radius: 10px;
@@ -475,7 +489,7 @@ transition: 0.2s;
 
 .titolo_articolo{
   text-align: center;
-margin-top: 90px;
+margin-top: 40px;
 margin-bottom: 5px;
 font-weight: 500;
 font-size: 40pt;}
