@@ -9,9 +9,10 @@
 --------------------------------------------------
 ------INIZIO SCHERMO PICCOLO------------------------------
 ---------------------------------------*/
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1023px){
 
   .pc{opacity:0;}
+
 
   /*  ------menu piccolo------------*/
 
@@ -116,6 +117,30 @@ transition: 0.2s;
 
     /*  ------fine menu piccolo------------*/
 
+
+    .griglia_grigio{
+    position: absolute;
+    width: 100%;
+    transform: translate(-50%,0);
+    left: 50%;
+    height: 1870px;
+    background-position: center,center;
+    top:50px;
+    background-image: url(images/grigio_contatti_phone.png);
+    background-color: white;
+    animation: opacity 3s;
+    }
+
+    .mappa{
+      position: absolute;
+      width:66vw;
+      height: 600px;
+      transform: translate(-50%,0);
+      left:50%;
+      margin-top:100px;
+    }
+
+
 #sopra{
 position:fixed;
 height: 140px;
@@ -141,7 +166,10 @@ top:50px;
 
 
 
-
+.barra:hover{
+opacity: 0.5;
+transition: 0.2s;
+}
 
 
 
@@ -152,84 +180,19 @@ top:50px;
 a{text-decoration: inherit!important;
 color:inherit!important;}
 
-/*#barra_1{
-right:60%;
-}
 
-
-
-#barra_2{
-right:49.5%;
-}
-
-#lineetta_2{
-right:44.5%;
-}
-
-
-
-#barra_4{
-right:29.5%;
-}
-
-#lineetta_4{
-right:24.5%;
-}
-
-
-#barra_3{
-right:39.5%;
-}
-
-#lineetta_3{
-right:34.5%;
-}
-
-.social_barra_1{
-right: 19%;
-}
-
-.social_barra_2{
-right: 16.8%;
-}
-
-.social_barra_3{
-right: 14.2%;
-}*/
 
 
 /* Fine barra dei menù */
 
 /* foto centrale */
 
-#titolo{
-position: absolute;
-top:140px;
-width: 100%;
-height: 1540px;
-left:0%;
-background-image: url(images/cover_phone.png);
-background-position: center center;
-  animation:opacity 3s;
-
-  /*border: 1pt solid black;*/
-}
-
-#logo_piccolo{
-  opacity: 0;
-/*position:absolute;
-width: 20em;
-top: 12.5em;
-left:50%;
-transform: translate(-50%, -50%);
-animation:opacity 3s;*/
-}
 
 
 
 @keyframes opacity{
-from{opacity:0;}
-to{opacity: 1;}
+  from{opacity:0;}
+  to{opacity: 1;}
 }
 
 /*Fine foto centrale */
@@ -238,137 +201,159 @@ to{opacity: 1;}
 
 /*grigli */
 
-.griglia_grigio{
-position: absolute;
-width: 100%;
-transform: translate(-50%,0);
-left: 50%;
-height: 3559px;
-background-position: center,center;
-top:1680px;
-background-image: url(images/grigio_phone.png);
-background-color: white;
+.mappa{
+  position: absolute;
+  width:90vw;
+  height: 800px;
+  transform: translate(-50%,0);
+  left:50%;
+  top:220px;
 }
 
+
 .griglia{
-position: absolute;
-width: 100%;
-transform: translate(-50%,0);
-left: 50%;
-height: 700px;
-background-position: center, center;
+  position: absolute;
+  width: 100%;
+  left: 0%;
+  height: 500px;
+  background-position: center, center;
 }
 
 #griglia1{
-top:1730px;
-width: 90%;
-background-image: url(images/impasto_phone.png);
-background-color: #f1f2f2;
+  top:100px;
 }
 
 #griglia2{
-top:2480px;
-width: 90%;
-background-image: url(images/pane_phone.png);
-background-color: #f1f2f2;
+  top:1070px;
+  width: 500px;
+  transform: translate(-50%,0);
+  left:50%;
 }
 
-#griglia3{
-top:3200px;
-height: 880px;
-background-image: url(images/pizze_phone.png);
+
+.testo{
+  position: absolute;
+  top:70px;
+  width: 600px;
+  left:0%;
+  height: 500px;
 }
 
-#griglia4{
-top:3800px;
-height: 550px;
-}
-
-.box_griglia4{
-position: absolute;
-top:280px;
-height: 350px;
-width: 900px;
-transform: translate(-50%,0);
-left: 50%;
-}
-
-.piccolo_box_griglia4{
-position: absolute;
-background-color: #e6e6e6;
-height: 675px;
-width: 430px;
-box-shadow: 4px 7px 7px #333333;
-}
-
-#piccolo_box2{
-position: absolute;
-right: 0%;}
-
-#logo_piccolo_box{
-position: absolute;
-transform: translate(-50%,0);
-left: 50%;
-top:90px;
-height: 55px;
-}
-
-#titolo_box{
-position: absolute;
-top:120px;
-transform: translate(-50%,0);
-left: 50%;
-font-size: 45px;}
-
-.testo_box{
-position: absolute;
-bottom:0px;
-width: 300px;
-right: 0%;
-height: 420px;
-font-weight: 100;
-line-height: 45px;
-font-size: 30pt;
-text-align: left;
-}
+#testo_2{top:400px;}
 
 .loghetti_box{
 position: absolute;
-bottom:0px;
+top:140px;
 width: 20px;
-left: 50px;
+left: -50px;
 height: 420px;
 }
 
-.line_height_25{line-height: 100px;}
 
 #loghetto_piccolo_box1{
 position: absolute;
-width: 40px;
-top:5px;
+width: 25px;
+top:0px;
 margin-bottom: 22px;
 transform: translate(-50%, 0);
 left:50%;}
 
 #loghetto_piccolo_box2{
   position: absolute;
-  width: 43px;
-  top:120px;
+  width: 28px;
+  top:125px;
   margin-bottom: 22px;
   transform: translate(-50%, 0);
   left:50%;}
 
   #loghetto_piccolo_box3{
     position: absolute;
-    width: 45px;
-    top:220px;
+    width: 30px;
+    top:65px;
     margin-bottom: 22px;
     transform: translate(-50%, 0);
     left:50%;}
 
+
+
+
+/*testo*/
+
+.bold{font-weight: 1000;}
+
+.testo_articolo{
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 28pt;
+line-height: 30px;
+font-family: 'Source Sans Pro', sans-serif!important;}
+
+
+/*.destra{
+text-align: right;
+right: 0%;
+}*/
+
+.centro{
+text-align: center;
+transform: translate(-50%, 0);
+left: 50%;
+}
+
+.lineetta_testo{
+position: absolute;
+background-color: white;
+top:110px;
+height: 5px;
+width: 430px;
+text-align: center;
+transform: translate(-50%, 0);
+left: 35%;
+}
+
+.lineetta_titolo{
+  position: absolute;
+  background-color: black;
+  top:180px;
+  height: 3px;
+  width: 330px;
+}
+
+
+
+
+
+
+/*FONT*/
+.white { Color:white;}
+
+.black { Color:black;}
+
+.sfondo_black { background-color:black;}
+
+.source{    font-family: 'Source Sans Pro', sans-serif;    }
+
+.anonymous{
+    font-family: 'Anonymous Pro', monospace;}
+
+.titolo_articolo{
+margin-top: 30px;
+margin-bottom: 5px;
+font-weight: 500;
+font-size: 40pt;}
+
+
+
+
+.menu_font{
+  margin-top: 10px;
+  margin-bottom: : 15px;
+}
+
 /*footer*/
 #footer{
-top:4970px;
+top:1870px;
 height: 300px;
 background-color: #333333;
 }
@@ -404,115 +389,6 @@ transition: 0.2s;
 #social_footer_3{left:100%}
 
 
-
-
-/*testo*/
-
-.testo{
-position: absolute;
-transform: translate(-50%, 0);
-top:70px;
-width: 800px;
-left: 50%;
-height: 500px;
-}
-
-#testo_3{top:100px;}
-
-/*.destra{
-text-align: right;
-right: 0%;
-}*/
-
-.centro{
-text-align: center;
-transform: translate(-50%, 0);
-left: 50%;
-}
-
-.lineetta_testo{
-position: absolute;
-background-color: white;
-top:220px;
-height: 5px;
-width: 430px;
-text-align: center;
-transform: translate(-50%, 0);
-left: 50%;
-}
-
-.pulsante{
-position: absolute;
-background-color: white;
-top: 450px;
-height: 70px;
-width: 500px;
-border-radius: 10px;
-text-align: center;
-line-height: 70px;
-font-weight: 600;
-font-size: 22pt;
-text-align: center;
-transform: translate(-50%, 0);
-left: 50%;
-}
-
-.pulsante:hover{
-background-color: gray;
-color:white;
-transition: 0.2s;
-}
-
-
-#pulsante_3{
-  top:400px;
-background-color: #333333;}
-
-#pulsante_3:hover{
-background-color: gray;
-color:white;
-transition: 0.2s;
-}
-
-
-/*FONT*/
-.white { Color:white;}
-
-.black { Color:black;}
-
-.sfondo_black { background-color:black;}
-
-.source{
-    font-family: 'Source Sans Pro', sans-serif;';
-    }
-
-.anonymous{
-    font-family: 'Anonymous Pro', monospace;}
-
-.titolo_articolo{
-  text-align: center;
-margin-top: 40px;
-margin-bottom: 5px;
-font-weight: 500;
-font-size: 40pt;}
-
-
-  .testo_articolo{
-    opacity: 0;
-    /*margin-top: 40px;
-    margin-bottom: 10px;
-    font-weight: 500;
-    font-size: 16pt;
-line-height: 26px;*/}
-
-.white{
-  color:white;
-}
-
-.menu_font{
-  margin-top: 10px;
-  margin-bottom: : 15px;
-}
 }
 /*------------------------------
 --------------------------------------------------
@@ -655,28 +531,6 @@ color:inherit!important;}
 
 /* foto centrale */
 
-#titolo{
-  position: absolute;
-  top:15em;
-  width: 100%;
-  height: 25em;
-  left:0%;
-  background-image: url(images/cover2.jpg);
-  background-position: center center;
-    animation:opacity 3s;
-
-    /*border: 1pt solid black;*/
-}
-
-#logo_piccolo{
-  opacity: 1;
-  position:absolute;
-  width: 20em;
-  top: 12.5em;
-  left:50%;
-  transform: translate(-50%, -50%);
-  animation:opacity 3s;
-}
 
 
 
@@ -690,6 +544,28 @@ color:inherit!important;}
 
 
 /*grigli */
+.griglia_grigio{
+position: absolute;
+width: 100%;
+transform: translate(-50%,0);
+left: 50%;
+height: 1091px;
+background-position: center,center;
+top:5.5em;
+background-image: url(images/grigio_contatti.png);
+background-color: white;
+animation: opacity 3s;
+}
+
+.mappa{
+  position: absolute;
+  width:66vw;
+  height: 500px;
+  transform: translate(-50%,0);
+  left:50%;
+  top:250px;
+}
+
 
 .griglia{
   position: absolute;
@@ -700,113 +576,65 @@ color:inherit!important;}
 }
 
 #griglia1{
-  top:740px;
-  background-image: url(images/impasto.png);
-  background-color: #f1f2f2;
+  top:100px;
 }
 
 #griglia2{
-  top:1240px;
-  background-image: url(images/pane2.jpg);
-  background-color: #f1f2f2;
-}
-
-#griglia3{
-  top:1740px;
-  height: 1200px;
-  background-image: url(images/pizze3.png);
-  background-color: white;
-}
-
-#griglia4{
-  top:2150px;
-  height: 550px;
-}
-
-.box_griglia4{
-  position: absolute;
-  top:150px;
-  height: 350px;
-  width: 600px;
+  top:740px;
+  width: 800px;
   transform: translate(-50%,0);
-  left: 50%;
+  left:55%;
 }
 
-.piccolo_box_griglia4{
+
+.testo{
   position: absolute;
-  background-color: #e6e6e6;
-  height: 350px;
-  width: 260px;
-  box-shadow: 4px 7px 7px #333333;
+  top:70px;
+  width: 250px;
+  left:0%;
+  height: 500px;
 }
 
-#piccolo_box2{
-  position: absolute;
-  right: 0%;}
-
-#logo_piccolo_box{
-  position: absolute;
-  transform: translate(-50%,0);
-  left: 50%;
-  top:50px;
-  height: 30px;
-}
-
-#titolo_box{
-  position: absolute;
-  top:80px;
-  transform: translate(-50%,0);
-  left: 50%;}
-
-.testo_box{
-  position: absolute;
-  bottom:0px;
-  width: 165px;
-  right: 0%;
-  height: 200px;
-  font-weight: 100;
-  line-height: 22px;
-  font-size: 14pt;
-  text-align: left;
-}
+#testo_2{left:50%;}
 
 .loghetti_box{
-  position: absolute;
-  bottom:0px;
-  width: 20px;
-  left: 50px;
-  height: 200px;
+position: absolute;
+top:70px;
+width: 20px;
+left: -50px;
+height: 420px;
 }
 
-.line_height_25{line-height: 50px;}
 
 #loghetto_piccolo_box1{
-  position: absolute;
-  width: 20px;
-  top:5px;
-  margin-bottom: 22px;
+position: absolute;
+width: 25px;
+top:0px;
+margin-bottom: 22px;
 transform: translate(-50%, 0);
 left:50%;}
 
-  #loghetto_piccolo_box2{
+#loghetto_piccolo_box2{
+  position: absolute;
+  width: 28px;
+  top:125px;
+  margin-bottom: 22px;
+  transform: translate(-50%, 0);
+  left:50%;}
+
+  #loghetto_piccolo_box3{
     position: absolute;
-    width: 23px;
-    top:55px;
+    width: 30px;
+    top:65px;
     margin-bottom: 22px;
     transform: translate(-50%, 0);
     left:50%;}
 
-    #loghetto_piccolo_box3{
-      position: absolute;
-      width: 25px;
-      top:100px;
-      margin-bottom: 22px;
-      transform: translate(-50%, 0);
-      left:50%;}
+
 
 /*footer*/
 #footer{
-  top:2870px;
+  top:1116px;
   height: 230px;
   background-color: #333333;
 }
@@ -845,16 +673,6 @@ left:50%;}
 
 /*testo*/
 
-.testo{
-  position: absolute;
-  transform: translate(-50%, 0);
-  top:70px;
-  width: 800px;
-  left: 50%;
-  height: 500px;
-}
-
-#testo_3{top:100px;}
 
 .destra{
   text-align: right;
@@ -867,47 +685,28 @@ left:50%;}
   left: 50%;
 }
 
+.lineetta_titolo{
+  position: absolute;
+  background-color: black;
+  top:115px;
+  height: 3px;
+  width: 330px;
+}
+
 .lineetta_testo{
   position: absolute;
   background-color: white;
-  top:105px;
+  top:45px;
   height: 3px;
-  width: 430px;
+  width: 230px;
 }
 
-.pulsante{
-  position: absolute;
-  background-color: white;
-  top: 280px;
-  height: 40px;
-  width: 300px;
-  border-radius: 10px;
-  text-align: center;
-  line-height: 40px;
-  font-weight: 600;
-  font-size: 13pt;
-}
-
-.pulsante:hover{
-background-color: gray;
-color:white;
-  transition: 0.2s;
-}
-
-#pulsante_2{top: 280px;}
-
-#pulsante_3{
-  top: 260px;
-background-color: #333333;}
-
-#pulsante_3:hover{
-background-color: gray;
-color:white;
-  transition: 0.2s;
-}
 
 
 /*FONT*/
+
+.bold{font-weight: 1000;}
+
 .white { Color:white;}
 
 .black { Color:black;}
@@ -921,15 +720,18 @@ color:white;
 .anonymous{
       font-family: 'Anonymous Pro', monospace;}
 
+.line_height_25{
+  line-height: 15px;}
+
 .titolo_articolo{
-  margin-top: 10px;
+  margin-top: 0px;
   margin-bottom: 5px;
   font-weight: 500;
   font-size: 20pt;}
 
 
     .testo_articolo{
-      margin-top: 40px;
+      margin-top: 30px;
       margin-bottom: 10px;
       font-weight: 500;
       font-size: 16pt;
