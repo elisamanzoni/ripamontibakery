@@ -1,0 +1,915 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,500,600,700,900');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro');
+
+
+
+/*------------------------------
+--------------------------------------------------
+------INIZIO SCHERMO PICCOLO------------------------------
+---------------------------------------*/
+@media screen and (max-width: 1024px){
+
+  .pc{opacity:0;}
+
+  /*  ------menu piccolo------------*/
+
+  .topnav {
+  position: fixed;
+  overflow: hidden;
+  background-color: #333;
+  top:0%;
+  right:0%;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+  color: white;
+  height:1980px;
+  width: 66vw;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  position: relative;
+  color: white;
+  padding: 50px 50px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  height:50px;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: none;
+  display: block;
+  position: absolute;
+  right: 10vw;
+  top: 0;
+  width: 50px;
+  height:50px;
+}
+
+.icon_menu{
+  width: 70px;
+  right:0vw;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #333333;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: none!important;
+  color: white;
+  width:200px;
+}
+
+.barra{
+font-size: 40pt!important;
+font-family: 'Source Sans Pro', sans-serif;';
+font-weight: 800;
+color:white;
+text-align: left;
+margin-left: 50px;
+margin-top: -20px;
+}
+
+.barra:hover{
+opacity: 0.5;
+transition: 0.2s;
+}
+
+.lineetta{
+background-color: white;
+height: 2px;
+width: 400px;
+margin-left: 100px;
+margin-top: 50px;
+}
+
+#lineetta_1{
+right:54.5%;
+}
+
+#social_barra{
+width: 80px;
+margin-right: 20px;
+margin-top: 50px;
+}
+
+#social_barra:hover{
+opacity: 0.5;
+transition: 0.2s;
+}
+
+.social_barra_1{
+  margin-left: 80px!important;
+  margin-right: 0px!important;
+}
+
+    /*  ------fine menu piccolo------------*/
+
+#sopra{
+position:fixed;
+height: 140px;
+width: 100%;
+background-color: #333333;
+top:0%;
+left:0%;
+}
+
+#logo_barra{
+position:fixed;
+width: 300px;
+left:10%;
+top:50px;
+}
+
+#menu{
+  position:fixed;
+  width: 50px;
+  right:10%;
+  top:50px;
+}
+
+
+
+a{text-decoration: inherit!important;
+color:inherit!important;}
+
+
+
+
+/* Fine barra dei menù */
+
+/* foto centrale */
+
+.griglia_grigio{
+position: absolute;
+width: 100%;
+transform: translate(-50%,0);
+left: 50%;
+height: 1800px;
+background-position: center,center;
+top:900px;
+background-image: url(images/grigio_pane.png);
+background-color: white;
+animation: opacity 3s;
+background-repeat: no-repeat;
+}
+
+#titolo{
+  position: absolute;
+  top:25em;
+  width: 100%;
+  height: 25em;
+  left:0%;
+  background-image: url(images/cover2.png);
+  background-position: center center;
+    animation:opacity 3s;
+}
+
+#titolo1{
+  position: absolute;
+  transform: translate(-50%,0);
+  left:50%;
+  text-align: center;
+  top:-130px;
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 50pt;
+  width:800px;
+}
+
+
+.lineetta_testo{
+  position: absolute;
+  transform: translate(-50%,0);
+  left:50%;
+  background-color: black;
+  top:-20px;
+  height: 3px;
+  width: 300px;
+}
+
+
+
+
+@keyframes opacity{
+from{opacity:0;}
+to{opacity: 1;}
+}
+
+/*Fine foto centrale */
+
+
+
+/*grigli */
+.griglia{
+  position: absolute;
+  transform: translate(-50%,0);
+  width: 100%;
+  left: 50%;
+  height: 500px;
+}
+
+#griglia1{
+
+  width: 800px;}
+
+.testo_titolo{
+  position: absolute;
+    top:200px;
+  width:700px!important;
+  height: 200px;
+  font-weight: 500;
+  font-size: 30pt!important;
+line-height: 50px!important;
+font-family: 'Anonymous Pro', monospace;
+transform: translate(-50%,0);
+left:50%;
+}
+
+#testo_titolo2{top:700px}
+
+.testo_titolo_en{
+  position: absolute;
+  bottom:0%;
+  width:380px;
+  height: 200px;
+  font-weight: 500;
+  font-size: 13pt;
+line-height: 26px;
+color:#b3b3b3;
+font-family: 'Anonymous Pro', monospace;
+}
+
+/*GRIGLIA2*/
+#griglia2{
+  top:1850px!important;
+  width: 800px;}
+
+  .titolo2{
+    position: absolute;
+    transform: translate(-50%,0);
+    left:50%;
+    text-align: center;
+    top:0px;
+    font-weight: 500;
+    font-size: 20pt;}
+
+  #lineetta_testo2{
+    background-color: white;
+    top: 50px;}
+
+
+
+    /*GRIGLIA3*/
+
+
+    #griglia3{
+      top:1950px;
+      width: 800px;
+    height: 1000px;
+    }
+
+    .pane{
+      width:100%;
+      margin-top: 100px;
+    box-shadow: 4px 7px 12px #999999;
+  background-color: white;
+  padding: 70px!important;}
+
+    .titolino-pane{
+        margin-top:20px!important;
+      font-weight: 500;
+      font-size: 40pt!important;
+      line-height: 27px;
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    .titolo-pane{
+      font-weight: 500;
+      font-size: 50pt!important;
+      line-height: 27px;
+      margin-top:50px!important;
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    .testo-pane{
+      width: 650px!important;
+      font-weight: 500;
+      font-size: 30px!important;
+      line-height: 40px!important;
+      margin-top:40px!important;
+      font-family: 'Anonymous Pro', monospace;
+    }
+
+    .lineetta_pane{
+      background-color: black;
+      margin-top: 50px!important;
+      height: 3px;
+      width: 650px!important;
+    }
+
+
+    .testo-pane-en{
+      opacity: 0;
+      width: 290px;
+      font-weight: 500;
+      font-size: 10pt;
+      line-height: 23px;
+      font-family: 'Anonymous Pro', monospace;
+      margin-left: 420px;
+      margin-top: -235px;
+      color: gray;
+    }
+
+    #immagine-pane{
+      width: 650px!important;
+      margin-top:40px!important;
+    }
+
+
+
+
+
+
+/*footer*/
+#footer{
+top:17700px!important;
+height: 300px;
+background-color: #333333;
+}
+
+#testo_footer{
+position: absolute;
+TOP:70PX!important;
+margin-top: -50px;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 40pt;
+}
+
+#loghetti_footer{
+position: absolute;
+transform: translate(-50%,0);
+left:50%;
+top: 90px!important;
+width: 150px;
+height: 63px;
+}
+
+.social_footer{
+position: absolute;
+width: 60px;
+transform: translate(-50%,0);
+
+}
+
+.social_footer:hover{
+opacity: 0.5;
+transition: 0.2s;
+}
+
+#social_footer_1{left:0%}
+#social_footer_2{left:50%}
+#social_footer_3{left:100%}
+
+
+
+
+
+
+
+
+
+
+
+/*FONT*/
+.white { Color:white;}
+
+.black { Color:black;}
+
+
+.source{
+    font-family: 'Source Sans Pro', sans-serif;
+    }
+
+.anonymous{
+    font-family: 'Anonymous Pro', monospace;}
+
+
+.menu_font{
+  margin-top: 10px;
+  margin-bottom: : 15px;
+}
+}
+/*------------------------------
+--------------------------------------------------
+------INIZIO SCHERMO GRANDE------------------------------
+---------------------------------------*/
+
+@media screen and (min-width: 1024px) {
+
+  .mobile{opacity:0;  }
+  #sopra{
+  position:fixed;
+  height: 5.5em;
+  width: 100%;
+  background-color: #333333;
+  top:0%;
+  left:0%;
+    animation:opacity 3s;
+}
+
+.topnav {
+position: absolute;
+overflow: hidden;
+top:0%;
+right:0%;
+height:0.1px;
+}
+
+
+#menu{
+  opacity: 0}
+
+#logo_barra{
+  position:fixed;
+  width: 12em;
+  left:25%;
+  top:3.2em;
+  transform: translate(-50%, -50%);
+  animation:opacity 3s;
+}
+
+.barra{
+  opacity: 1;
+  position: fixed;
+  transform: translate(50%, -50%);
+  top: 2.5em;
+  font-size: 12pt;
+  font-family: 'Source Sans Pro', sans-serif;';
+  font-weight: 800;
+  color:white;
+  height: 50px;
+  width: 100px;
+  border-radius: 20px;
+  text-align: center;
+    animation:opacity 3s;
+}
+
+.barra:hover{
+  opacity: 0.5;
+  transition: 0.2s;
+}
+
+.lineetta{
+  opacity: 1;
+  position: fixed;
+  transform: translate(0, -50%);
+  top: 3.2em;
+  background-color: white;
+  height: 35px;
+  width: 1px;
+}
+
+
+#social_barra{
+  opacity: 1;
+  position:fixed;
+  width: 2em;
+  top:3.2em;
+  transform: translate(-50%, -50%);
+  animation:opacity 3s;
+}
+
+#social_barra:hover{
+  opacity: 0.5;
+  transition: 0.2s;
+}
+
+
+a{text-decoration: inherit!important;
+color:inherit!important;}
+
+#barra_1{
+  right:60%;
+}
+
+#lineetta_1{
+  right:54.5%;
+}
+
+#barra_2{
+  right:49.5%;
+}
+
+#lineetta_2{
+  right:44.5%;
+}
+
+
+
+#barra_4{
+  right:29.5%;
+}
+
+#lineetta_4{
+  right:24.5%;
+}
+
+
+#barra_3{
+  right:39.5%;
+}
+
+#lineetta_3{
+  right:34.5%;
+}
+
+.social_barra_1{
+  right: 19%;
+}
+
+.social_barra_2{
+  right: 16.8%;
+}
+
+.social_barra_3{
+  right: 14.2%;
+}
+
+
+/* Fine barra dei menù */
+
+/* foto centrale */
+
+.griglia_grigio{
+position: absolute;
+width: 100%;
+transform: translate(-50%,0);
+left: 50%;
+height: 1800px;
+background-position: center,center;
+top:700px;
+background-image: url(images/grigio_pane.png);
+background-color: white;
+animation: opacity 3s;
+background-repeat: no-repeat;
+}
+
+
+
+#titolo{
+  position: absolute;
+  top:15em;
+  width: 100%;
+  height: 25em;
+  left:0%;
+  background-image: url(images/cover2.png);
+  background-position: center center;
+    animation:opacity 3s;
+}
+
+.titolo1{
+  position: absolute;
+  transform: translate(-50%,0);
+  left:50%;
+  text-align: center;
+  top:-90px;
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 30pt;}
+}
+
+.lineetta_testo{
+  position: absolute;
+  transform: translate(-50%,0);
+  left:50%;
+  background-color: black;
+  top:-20px;
+  height: 3px;
+  width: 300px;
+}
+
+
+
+
+@keyframes opacity{
+  from{opacity:0;}
+  to{opacity: 1;}
+}
+
+/*Fine foto centrale */
+
+
+
+/*grigli */
+
+.griglia{
+  position: absolute;
+  transform: translate(-50%,0);
+  width: 100%;
+  left: 50%;
+  height: 500px;
+}
+
+#griglia1{
+  top:800px;
+  width: 800px;}
+
+.testo_titolo{
+  position: absolute;
+  width:380px;
+  height: 200px;
+  font-weight: 500;
+  font-size: 16pt;
+line-height: 27px;
+font-family: 'Anonymous Pro', monospace;
+}
+
+#testo_titolo2{right:0%;}
+
+.testo_titolo_en{
+  position: absolute;
+  bottom:0%;
+  width:380px;
+  height: 200px;
+  font-weight: 500;
+  font-size: 13pt;
+line-height: 26px;
+color:#b3b3b3;
+font-family: 'Anonymous Pro', monospace;
+}
+
+
+
+
+
+
+/*GRIGLIA2*/
+#griglia2{
+  top:1350px;
+  width: 800px;}
+
+  .titolo2{
+    position: absolute;
+    transform: translate(-50%,0);
+    left:50%;
+    text-align: center;
+    top:0px;
+    font-weight: 500;
+    font-size: 20pt;}
+
+  #lineetta_testo2{
+    background-color: white;
+    top: 50px;}
+
+
+  /*GRIGLIA PANI*/
+
+  #griglia_pani{
+    position: absolute;
+    width:800px;
+    height:450px;
+    top: 100px;
+  }
+
+  .blocco{
+    position: absolute;
+    width:25%;
+    height:33%;
+    background-color: white;
+    background-position: center, center;
+    background-repeat: no-repeat;
+    box-shadow: 4px 7px 7px #333333;
+  }
+
+  .blocco-nome{
+    position: absolute;
+    width:25%;
+    height:33%;
+    background-color: #333333;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+.nome-pane{
+  color:white;
+  position: absolute;
+  font-weight: 500;
+  font-size: 16pt;
+  line-height: 27px;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top:50%;
+  text-align: center;
+  cursor: pointer;
+}
+
+  .blocco-nome:hover{
+    opacity: 0.8;
+    transition: 0.5s;
+  }
+
+
+
+
+  .r1{top:0%;}
+  .r2{top:33%;}
+  .r3{top:66%;}
+
+  .c1{left:0%;}
+  .c2{left:25%;}
+  .c3{left:50%;}
+  .c4{left:75%;}
+
+  #pn_1{background-image: url(images/pane-caserreccioo.png);}
+  #pn_2{background-image: url(images/pane-caserreccioo.png);}
+  #pn_3{background-image: url(images/pane-caserreccioo.png);}
+  #pn_4{background-image: url(images/pane-caserreccioo.png);}
+  #pn_5{background-image: url(images/pane-caserreccioo.png);}
+  #pn_6{background-image: url(images/pane-caserreccioo.png);}
+  #pn_7{background-image: url(images/pane-caserreccioo.png);}
+  #pn_8{background-image: url(images/pane-caserreccioo.png);}
+  #pn_9{background-image: url(images/pane-caserreccioo.png);}
+  #pn_10{background-image: url(images/pane-caserreccioo.png);}
+  #pn_11{background-image: url(images/pane-caserreccioo.png);}
+  #pn_12{background-image: url(images/pane-caserreccioo.png);}
+
+
+
+
+
+
+  /*GRIGLIA3*/
+  #griglia3{
+    top:1950px;
+    width: 800px;
+  height: 1000px;
+  }
+
+  .pane{
+    width:100%;
+    margin-top: 100px;
+  box-shadow: 4px 7px 12px #999999;
+background-color: white;
+padding: 50px;}
+
+  .titolino-pane{
+    font-weight: 500;
+    font-size: 15pt;
+    line-height: 27px;
+  }
+
+  .titolo-pane{
+    font-weight: 500;
+    font-size: 20pt;
+    line-height: 27px;
+    margin-top:10px;
+  }
+
+  .testo-pane{
+    width: 380px;
+    font-weight: 500;
+    font-size: 12pt;
+    line-height: 27px;
+    margin-top:20px;
+    font-family: 'Anonymous Pro', monospace;
+  }
+
+  .lineetta_pane{
+    background-color: black;
+    margin-top: 20px;
+    height: 2px;
+    width: 400px;
+  }
+
+
+  .testo-pane-en{
+    width: 290px;
+    font-weight: 500;
+    font-size: 10pt;
+    line-height: 23px;
+    font-family: 'Anonymous Pro', monospace;
+    margin-left: 420px;
+    margin-top: -235px;
+    color: gray;
+  }
+
+  #immagine-pane{
+    width: 468px;
+    font-weight: 500;
+    margin-top:20px;
+  }
+
+
+#freccia-su{
+  position: fixed;
+  width:50px;
+  height: 50px;
+  bottom:50px;
+  right:50px;
+  background-color: #333333;
+}
+
+
+
+
+
+/*footer*/
+#footer{
+  top:12300px;
+  height: 230px;
+  background-color: #333333;
+}
+
+#testo_footer{
+  position: absolute;
+  TOP:40PX;
+}
+
+#loghetti_footer{
+  position: absolute;
+  transform: translate(-50%,0);
+  left:50%;
+  top: 65px;
+  width: 150px;
+  height: 63px;
+}
+
+.social_footer{
+  position: absolute;
+  width: 50px;
+  transform: translate(-50%,0);
+}
+
+.social_footer:hover{
+  opacity: 0.5;
+  transition: 0.2s;
+}
+
+#social_footer_1{left:0%}
+#social_footer_2{left:50%}
+#social_footer_3{left:100%}
+
+
+
+
+/*testo*/
+
+.testo{
+  position: absolute;
+  transform: translate(-50%, 0);
+  top:70px;
+  width: 800px;
+  left: 50%;
+  height: 500px;
+}
+
+#testo_3{top:100px;}
+
+.destra{
+  text-align: right;
+  right: 0%;
+}
+
+.centro{
+  text-align: center;
+  transform: translate(-50%, 0);
+  left: 50%;
+}
+
+
+
+
+
+/*FONT*/
+.white {Color:white;}
+
+.black {Color:black;}
+
+.sfondo_black {background-color:black;}
+
+.source{font-family: 'Source Sans Pro', sans-serif;'; }
+
+
+
+.anonymous{font-family: 'Anonymous Pro', monospace;}
+
+
+}
+
+
+/*------------------------------
+--------------------------------------------------
+------FINE SCHERMO GRANDE------------------------------
+---------------------------------------*/
