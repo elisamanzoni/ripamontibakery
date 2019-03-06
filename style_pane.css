@@ -116,6 +116,129 @@ transition: 0.2s;
 
     /*  ------fine menu piccolo------------*/
 
+
+
+
+
+
+
+    /*  ------bottone------------*/
+
+    .topnav2 {
+      background-color: none!important;
+    position: fixed;
+    overflow: hidden;
+    bottom: 5%;
+    transform: translate(-50%,0);
+    left:50%;
+  }
+
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav2 #myLinks2 {
+    background-color: #333333;
+    opacity: 0.95;
+    position: relative;
+    display: none;
+    color: white;
+    height:89vh;
+    width: 90vw;
+    margin-top: -100px;
+      }
+
+  /* Style navigation menu links */
+  .topnav2 a {
+    background-color: none!important;
+    position: relative;
+    color: white;
+    padding: 50px 50px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    height:100px;
+  }
+
+  /* Style the hamburger menu */
+  .topnav2 a.icon {
+    background-color: #999999;
+    display: block;
+    width: 700px;
+    height: 100px;
+    transform: translate(-50%,0);
+    position: absolute;
+    left:50%;
+    border-radius: 50px;
+    top: 0;
+  }
+
+  .bottone{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left:50%;
+    font-size: 35pt;
+    width: 600px;
+    text-align: center;
+  }
+
+  .icon_menu2{
+    background-color: none!important;
+    position: absolute;
+    top:0%;
+    right:-150%;
+    width: 90vw;
+    height: 150px;
+  }
+
+  /* Add a grey background color on mouse-over */
+  .topnav2 a:hover {
+    background-color: none!important;
+    color: black;
+  }
+
+  /* Style the active link (or home/logo) */
+  .active2 {
+    background-color: none!important;
+    color: white;
+    border-radius: 100px;
+    width: 90vw;
+    height: 300px;
+  }
+
+  .pani-pulsante{
+  font-size: 35pt!important;
+  font-family: 'Source Sans Pro', sans-serif;';
+  font-weight: 800;
+  color:white;
+  text-align: center;
+  margin-top: -25px;
+  font-family: 'Anonymous Pro', monospace!important;
+  }
+
+  .barra:hover{
+  opacity: 0.5;
+  transition: 0.2s;
+  }
+
+  .lineetta{
+  background-color: white;
+  height: 2px;
+  width: 70vw;
+  margin-left: 100px;
+  margin-top: 35px;
+  }
+
+  #lineetta_1{
+  right:54.5%;
+  }
+
+  /*  ------fine pulsante------------*/
+
+
+
+
+
+
+
 #sopra{
 position:fixed;
 height: 140px;
@@ -419,6 +542,13 @@ transition: 0.2s;
 @media screen and (min-width: 1024px) {
 
   .mobile{opacity:0;  }
+
+  .topnav2 #myLinks2 {
+    height:0vh;
+    width: 0vw;
+
+      }
+
   #sopra{
   position:fixed;
   height: 5.5em;
